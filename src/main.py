@@ -79,6 +79,6 @@ def patient_registration_parser(img, model="keras_ocr", debug=False):
 
 
 if __name__ == "__main__":
-    img = cv2.imread("docs/test/digital_1.jpg")
+    img = cv2.imread("docs/test/digital_1_manipulated.jpg")
     output = patient_registration_parser(img, model="keras_ocr", debug=False)
     print(output)

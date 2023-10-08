@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 
-def get_boxes(img, box_width=400, box_height=60, debug=False):
+def get_boxes(img, box_width=800, box_height=120, debug=False):
     """
     Extracts boxed zones in the image
 
@@ -75,6 +75,6 @@ def display(text, img):
 
 if __name__ == "__main__":
     # Example
-    img = cv2.imread("docs/test/digital_1_manipulated.jpg")
+    img = cv2.imread("docs/test/digital_1_manipulated.jpg.jpg")
     boxes = get_boxes(img, debug=True)
     print(len(boxes), "boxes detected")
