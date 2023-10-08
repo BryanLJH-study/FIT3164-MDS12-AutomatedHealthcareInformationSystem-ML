@@ -2,7 +2,7 @@ import unittest
 import io
 import cv2
 import sys
-sys.path.append('src/')  # Adjust the relative path as needed
+sys.path.append('api/')  # Adjust the relative path as needed
 from app import app
 
 
