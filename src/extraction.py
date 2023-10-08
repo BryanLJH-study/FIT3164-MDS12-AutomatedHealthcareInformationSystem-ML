@@ -75,6 +75,6 @@ def display(text, img):
 
 if __name__ == "__main__":
     # Example
-    img = cv2.imread("docs/test/digital_1.jpg")
+    img = cv2.imread("docs/test/digital_1_manipulated.jpg")
     boxes = get_boxes(img, debug=True)
     print(len(boxes), "boxes detected")
