@@ -43,7 +43,7 @@ def text_box_htr(doc_img, model="keras_ocr", debug=False):
             # Predict text in image
             pred = prediction_model.predict(img)
 
-            # Decode prediction (halted progress)
+            # Decode prediction (halted progress after decided not to use model)
 
             # Append prediction
             # recognized_texts.append(pred)
